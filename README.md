@@ -7,8 +7,7 @@ Welcome to the Real-Time Whiteboard Sharing App! This application allows users t
 ## Features
 
 ### 1. Whiteboard Creating Dashboard
-![image](https://github.com/varshith03/Real-Time-WhiteBoard-Sharing-App/assets/56431994/3249e824-e925-4efa-a65d-7f4388cf027c)
-
+![image](https://github.com/varshith03/Real-Time-WhiteBoard-Sharing-App/assets/56431994/a1608a36-d5a4-424e-a7d5-9552eb6fb7b7)
 
 ### 2. Responsive Design
 ![Responsive Design](https://github.com/varshith03/Real-Time-WhiteBoard-Sharing-App/assets/56431994/8b917b01-9b7f-4752-aee0-f5bc778a4eb2)

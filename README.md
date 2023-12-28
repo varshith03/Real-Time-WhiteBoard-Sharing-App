@@ -1,6 +1,6 @@
 # Real-Time-WhiteBoard-Sharing-App
  
-App development still in progress
+Still working on completion
 Some images of interface and features
 
 

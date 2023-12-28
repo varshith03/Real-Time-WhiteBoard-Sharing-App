@@ -1,0 +1,17 @@
+{
+  "name": "mern-realtime-whiteboard-sharing-app-backend",
+  "version": "1.0.0",
+  "description": "this is a backend for mean realtime whiteboard sharing app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "S Varshith",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
+  }
+}

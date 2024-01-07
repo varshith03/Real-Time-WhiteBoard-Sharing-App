@@ -4,6 +4,10 @@
 
 Welcome to the Real-Time Whiteboard Sharing App! This application allows users to collaborate seamlessly on a virtual whiteboard, fostering real-time communication and creativity.
 
+## Tech Stack
+Frontend - Reactjs, bootstrap
+Backed - Nodejs, expressjs, socket.io
+
 ## Features
 ### 1. Login Page
 ![image](https://github.com/varshith03/Real-Time-WhiteBoard-Sharing-App/assets/56431994/dfef6d63-a548-4112-ad28-c88b9c64eb45)

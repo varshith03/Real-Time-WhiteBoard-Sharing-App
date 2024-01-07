@@ -6,6 +6,7 @@ Welcome to the Real-Time Whiteboard Sharing App! This application allows users t
 
 ## Tech Stack
 Frontend - Reactjs, bootstrap
+
 Backed - Nodejs, expressjs, socket.io
 
 ## Features

@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  client:
+    build: ./frontend
+    ports:
+      - "3000:3000" # Frontend port in development
+  server:
+    build: ./backend 
+    ports:
+      - "5000:5000"  # Backend port
+    depends_on:
+      - frontend   # Ensure the client container is running

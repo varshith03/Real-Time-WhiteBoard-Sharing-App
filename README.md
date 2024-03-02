@@ -1,7 +1,5 @@
 # Real-Time Whiteboard Sharing App
 
-**Status: Still in Development**
-
 Welcome to the Real-Time Whiteboard Sharing App! This application allows users to collaborate seamlessly on a virtual whiteboard, fostering real-time communication and creativity.
 
 ## Tech Stack

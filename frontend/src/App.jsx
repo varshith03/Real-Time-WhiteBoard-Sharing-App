@@ -114,7 +114,7 @@ const App = () => {
       </Routes>
 
       <div className="registration-container mt-20">
-        {!userData && (
+        {(!userData && location.pathname === "/") && (
           <div>
             <div className="glowing-text">
               Please register to start using the whiteboard

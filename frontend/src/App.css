@@ -1,58 +1,119 @@
 /* App.css */
 body {
-    background: #27cdd3 !important;
-  }
+  background: #27cdd3 !important;
+}
 .app-container {
-    text-align: center;
+  text-align: center;
+}
+
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+.glowing-text {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 50px;
+}
+
+.registration-container a {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #27cdd3;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.register-button:hover {
+  background-color: #00f3fc;
+}
+
+@keyframes textclip {
+  to {
+    background-position: -200% center;
   }
-  
-  .registration-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px; /* Adjust as needed */
+}
+
+/* CSS for line animation */
+.line-animation {
+  height: 2px;
+  background-color: #27cdd3;
+  animation: drawLine 5s linear forwards;
+  border-radius: 1px;
+}
+
+@keyframes drawLine {
+  from {
+    width: 0;
   }
-  
-  .glowing-text {
-    text-transform: uppercase;
-    background-image: linear-gradient(
-      -225deg,
-      #231557 0%,
-      #44107a 29%,
-      #ff1361 67%,
-      #fff800 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 2s linear infinite;
-    display: inline-block;
-    font-size: 50px; /* Adjust as needed */
+  to {
+    width: 100%;
   }
-  
-  .register-button {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 25px;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #0229d8;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+}
+
+/* CSS for animated pencil */
+.pencil {
+  position: absolute;
+  left: 0px;
+  animation: movePencil 5s linear forwards, rotatePencil 2s linear 5s forwards;
+}
+
+@keyframes movePencil {
+  0% {
+    left: 0px;
   }
-  
-  .register-button:hover {
-    background-color: #2980b9;
+  100% {
+    left: calc(100%);
   }
-  
-  @keyframes textclip {
-    to { 
-      background-position: -200% center;
+}
+
+@keyframes rotatePencil {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    translate: -1rem;
+    transform: rotate(495deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .line-animation {
+    animation-duration: 5s;
+  }
+
+  .pencil {
+    margin-top: -10px;
+  }
+
+  @keyframes movePencil {
+    100% {
+      left: calc(100% - 30px);
     }
   }
-  
+}

@@ -1,3 +1,9 @@
-.form-box{
-    height: 400px;
+.form-box {
+  height: 400px;
+  border: 2px solid #27cdd3;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-box h1 {
+  color: #27cdd3;
 }

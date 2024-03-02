@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+}
+.container::-webkit-scrollbar {
+  display: none; 
+}
+.container .row {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.btn {
+  display: block;
+  height: 40px;
+  width: 100px;
+}
+
+.mx-2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}

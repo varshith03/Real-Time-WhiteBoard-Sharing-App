@@ -22,7 +22,7 @@ const RoomPage = ({ user, socket, users }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false); // Hide loading component after 5 seconds
-    }, 1000);
+    }, 5000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -96,7 +96,7 @@ const RoomPage = ({ user, socket, users }) => {
                 </div>
                 <div className="w-100 mt-5 pt-5">
                   {users.map((usr, index) => (
-                    <p key={index * 999} className="my-2 text-center w-100">
+                    <p key={index} className="my-2 text-center w-100">
                       {usr.name} {user && user.userId === usr.userId && "(You)"}
                     </p>
                   ))}

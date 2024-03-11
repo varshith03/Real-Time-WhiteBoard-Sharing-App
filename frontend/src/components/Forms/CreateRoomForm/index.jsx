@@ -54,7 +54,11 @@ const CreateRoomForm = ({ uuid, socket, setUser }) => {
           <div className="input-group-append d-flex gap-1">
             <button
               className="btn btn-sm me-1 my-button"
-              style={{ backgroundColor: "#27cdd3", borderColor: "#27cdd3" }}
+              style={{
+                backgroundColor: "#27cdd3",
+                borderColor: "#27cdd3",
+                color: "white",
+              }}
               onClick={() => setRoomId(uuid())}
             >
               Generate
@@ -71,7 +75,11 @@ const CreateRoomForm = ({ uuid, socket, setUser }) => {
           type="submit"
           onClick={handleCreateRoom}
           className="mt-3 btn btn-primary btn-block form-control"
-          style={{ backgroundColor: "#27cdd3", borderColor: "#27cdd3" }}
+          style={{
+            backgroundColor: "#27cdd3",
+            borderColor: "#27cdd3",
+            color: "white",
+          }}
         >
           Generate Room
         </button>

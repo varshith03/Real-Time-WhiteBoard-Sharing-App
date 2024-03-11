@@ -8,7 +8,7 @@ const { addUser, removeUser, getUser } = require("./utils/users");
 const io = new Server(server);
 
 app.get("/", (req, res) => {
-    res.send("this is mern realtime sharing app official server by varshith");
+    res.send("whiteboard backend server is running");
 });
 
 let roomIdGlobal, imgURLGlobal;

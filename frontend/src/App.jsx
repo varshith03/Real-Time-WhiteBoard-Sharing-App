@@ -10,7 +10,7 @@ import Forms from "./components/Forms";
 import RoomPage from "./pages/RoomPage";
 import AuthForm from "./components/AuthForm";
 
-const server = "http://localhost:5000";
+const server = "https://whiteboard-backend-azure.vercel.app/";
 const connectionOptions = {
   "force new connection": true,
   reconnectionAttempts: "Infinity",
@@ -114,7 +114,7 @@ const App = () => {
       </Routes>
 
       <div className="registration-container mt-20">
-        {(!userData && location.pathname === "/") && (
+        {!userData && location.pathname === "/" && (
           <div>
             <div className="glowing-text">
               Please register to start using the whiteboard

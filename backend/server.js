@@ -72,4 +72,4 @@ server.listen(port, () =>
   )
 );
 
-module.exports = server;
+module.exports = app;

@@ -103,6 +103,19 @@ body {
 }
 
 @media (max-width: 768px) {
+  .welcome-container {
+    text-align: center;
+  }
+  .glowing-text {
+    text-align: center;
+    font-size: 25px;
+  }
+  .registration-container a {
+    font-size: 18px;
+    width: 75%;
+    height: 30px;
+  }
+
   .line-animation {
     animation-duration: 5s;
   }

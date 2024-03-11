@@ -120,7 +120,7 @@ const App = () => {
               Please register to start using the whiteboard
             </div>
             <a
-              href="#"
+              href=""
               className="register-button"
               onClick={handleRegisterClick}
             >

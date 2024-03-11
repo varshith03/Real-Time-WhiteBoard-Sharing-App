@@ -110,7 +110,7 @@ const AuthForm = () => {
                   className="eye-icon"
                 />
               </div>
-              <a href="#">Forgot password?</a>
+              <a href="">Forgot password?</a>
               <input type="submit" className="button" value="Login" />
             </form>
             <div className="signup">

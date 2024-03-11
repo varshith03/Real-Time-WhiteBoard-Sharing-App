@@ -56,3 +56,5 @@ io.on("connection", (socket) => {
 
 const port = process.env.PORT || 5000;
 server.listen(port, () => console.log("server is running on http://localhost:5000"))
+
+module.exports = app

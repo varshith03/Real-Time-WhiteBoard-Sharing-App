@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "this is a backend for mean realtime whiteboard sharing app",
   "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js"
